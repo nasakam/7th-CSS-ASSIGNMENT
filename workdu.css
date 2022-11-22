@@ -1,0 +1,150 @@
+* {
+	box-sizing: border-box; 
+}
+body{
+	margin: 0px; padding: 0px; font-family: Helvetica Neue, Helvetica,
+	arial, sans-serif; color: white;
+}
+@media only screen and (max-width: 768px){
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+.header{
+	background-color: #ffffff; top: 0; left: 0; right: 0;
+	position: sticky; height:65px; padding: 13px; 
+}
+.stay{
+	  float: left; padding: 1px;
+}
+.stay::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.as{
+	margin-left:0px;
+}
+.as>a{
+	text-decoration: none;
+}
+.aa{
+	font-size: 25px; 
+}
+.aa::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.aa>a{
+	text-decoration: none; color: #1f2152;
+}
+.move{
+	float: right; padding: 10px;
+}
+.move::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.move a{
+	text-decoration: none; color: #1f2152; font-weight: bold;
+}
+.move a:hover{
+	color: #f3945c; font-weight: bold;
+}
+.ab{
+	margin-right: 100px;
+}
+.ab:hover{
+	cursor: pointer;
+}
+.dropdown{
+	display: inline-block; position: relative;
+}
+.dropdown-content{
+	display: none; z-index: 1;background-color: snow;
+	position: absolute; right: 0; width: 13vw;
+}
+.dropdown-content a{
+	color:#1f2152; font-size: 12px; padding: 10px 14px; display: block; text-decoration: none;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.details>*{
+	color: black; margin-left: 65px; margin-right: 100px; font-family: Franklin Gothic,sans-serif;
+}
+.button{
+	background-color: #39c15f; height: 50px; border: none; 
+	border-radius: 4px; font-weight: bold;
+}
+.button:hover{
+	cursor: pointer;
+}
+.base{
+	height: 350px; background-color: #6e6966;  
+}
+.asa{
+	padding: 65px; display: flex;
+}
+.asa a{
+	color: white; text-decoration: none; font-weight: bold; font-size: 14px;
+}
+.asa a:hover{
+	color: #ff7618; text-decoration: underline; font-weight: bold;
+}
+.sasa{
+	 display: flex; margin-left: 65px;
+}
+.sasa a{
+	text-decoration: none; color: white; font-weight: bold; font-size: 14px;
+}
+.sasa a:hover{
+	color: #ff7618; text-decoration: underline; font-weight: bold;
+}
+.sasa *{
+	color: #ff7618; font-weight: bold;
+}
+.ease{
+	 display: flex; margin-left: 60px; padding: 5px;
+}
+.ease a{
+	text-decoration: none; color: white; font-weight: bold; font-size: 14px;
+}
+.ease a:hover{
+	color: #ff7618; text-decoration: underline; font-weight: bold;
+}
+.ease *{
+	color: #ff7618; font-weight: bold;
+}
+.abs{
+	margin-left: 65px; font-size: 12px; padding-top: 20px;
+	color: white; padding-bottom: 8px;
+}
+.bae{
+	font-size: 12px; margin-left: 65px;
+}
+.bae a{
+	text-decoration: none; color: white;
+}
+.bae a:hover{
+	text-decoration: underline; color: #ff7618;
+}
+.row {
+	color: #1f2152; padding: 55px;
+}
+.col{
+	float: left; padding: 10px;
+}
+.akuku{
+	font-weight: bold; font-size: 30px; width: 35%;
+}
+.etiti{
+	font-size: 25px; width: 65%; text-align: justify;
+}
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
